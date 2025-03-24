@@ -41,7 +41,7 @@ a {
 }
 
 .header {
-    border-bottom: 1px solid #e7e9fc
+    border-bottom: 1px solid #e7e9fc;
 }
 
 .header .container {
@@ -136,6 +136,12 @@ a {
     text-align: center;
     padding-top: 188px;
     padding-bottom: 188px;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url('../images/people.office.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .main-header {
@@ -221,6 +227,17 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
+.benefits-icon{
+border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background: #f4f4fd;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    margin-bottom: 8px;
+}
+
+
 .main-page-team {
     background: #f4f4fd;
     gap: 24px;
@@ -278,6 +295,30 @@ padding-bottom: 32px
         text-align: center;
 }
 
+.icon-team-links {
+    display: flex;
+    gap: 24px;
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 8px;
+}
+
+.social-icon-link {
+    width: 40px;
+    height: 40px;
+    background-color: #4d5ae5;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    display: flex;
+    }
+
+
+.icon-team {
+fill: #f4f4fd;
+    }
+
+
 .main-portfolio {
 padding-top: 120px;
 padding-bottom: 120px;
@@ -334,8 +375,8 @@ border-top: none;
 
 .main-page-footer {
     background: #2e2f42;
-        /* height: 312px; */
         padding: 100px 0;
+        display: flex;
 }
 
 .logo-footer {
@@ -366,6 +407,29 @@ border-top: none;
         letter-spacing: 0.02em;
         color: #F4F4FD;
         max-width: 264px;
+}
+
+.footer-dscr-logo {
+    margin-left: 156px;
+ 
+}
+
+.footer-social-media {
+    /* margin-top: 100px; */
+    margin-left: 120px;
+}
+.footer-social {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #fff;
+
+}
+
+.icon-footer {
+    fill: #f4f4fd;
 }
 
 address {
