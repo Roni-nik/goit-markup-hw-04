@@ -120,12 +120,15 @@ a {
     color:#404bbf;
 }
 
+.main-nav-link.active {
+color: #404bbf;
+}
+
 .main-nav-link.active::after {
 content: "";
     position: absolute;
     left: 0;
     bottom: 0;
-    color: #404bbf;
     background: #404bbf;
     border-radius: 2px;
         width: 48px;
