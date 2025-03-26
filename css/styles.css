@@ -172,7 +172,7 @@ img {
     background-image: linear-gradient(to bottom,
             rgba(46, 47, 66, 0.7),
             rgba(46, 47, 66, 0.7)),
-        url(../images/people.office.jpg);
+        url(../images/people_office.jpg);
     background-repeat: no-repeat;
     background-position: center;
     max-width: 1440px;
@@ -455,11 +455,15 @@ img {
     background: #2e2f42;
     padding: 100px 0;
     display: flex;
+    
 }
 
 .footer-container {
     display: flex;
     align-items: baseline;
+    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: start;
 }
 
 .logo-footer {
@@ -470,6 +474,8 @@ img {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 
 
 }
